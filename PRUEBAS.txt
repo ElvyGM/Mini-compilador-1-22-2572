@@ -1,0 +1,9 @@
+PRUEBAS RECOMENDADAS
+
+1. Pulsar Cargar ejemplo, Traducir y revisar todas las pestanas.
+2. Pulsar Factorial, Traducir y Ejecutar C#; debe calcular 97! con BigInteger.
+3. Pulsar Numeros primos; debe listar 2, 3, 5, 7, 11, 13, 17, 19, 23 y 29.
+4. Pulsar Fibonacci; debe mostrar 0, 1, 1, 2, 3, 5, 8, 13, 21 y 34.
+5. Probar una linea if sin dos puntos; debe aparecer un error sintactico y bloquearse Ejecutar C#.
+6. Probar indentacion de dos espacios; debe aparecer un error sintactico.
+7. Asignar primero un entero y despues una cadena a la misma variable; debe aparecer un error semantico.

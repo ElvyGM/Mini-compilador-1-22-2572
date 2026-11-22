@@ -1,0 +1,30 @@
+COMPILADOR PYTHON A C#
+
+Autor: Elvy Grullon 1-22-2572
+
+1. OBJETIVO
+Aplicacion grafica que integra las fases principales de un compilador didactico y traduce un subconjunto de Python a C#. El codigo generado puede compilarse y ejecutarse mediante el SDK de .NET.
+
+2. FASES INTEGRADAS
+- Analizador lexico: separa palabras reservadas, identificadores, enteros, reales, cadenas, operadores y delimitadores.
+- Analizador sintactico: valida indentacion, dos puntos en bloques y balance de parentesis.
+- Analizador semantico: infiere tipos, registra declaraciones y detecta algunas redeclaraciones o incompatibilidades.
+- Tabla de simbolos: muestra nombre, tipo, categoria, ambito y linea.
+- Codigo intermedio: genera instrucciones de tres direcciones, temporales, parametros, llamadas y etiquetas.
+- Generador de codigo: convierte Python a C#.
+- Ejecucion: compila y ejecuta el C# con dotnet y muestra la salida en una consola grafica.
+
+3. SUBCONJUNTO DE PYTHON
+Soporta variables enteras, reales, cadenas y booleanas; print; if, elif y else; while; for con range; funciones; return; comentarios y operadores aritmeticos, relacionales y booleanos. La indentacion utiliza grupos de cuatro espacios.
+
+4. INTERFAZ
+El panel izquierdo recibe Python y el derecho muestra C#. Las pestanas inferiores contienen fases y errores, tokens, tabla de simbolos, codigo intermedio y consola. Los botones cargan ejemplos generales, factorial, numeros primos y Fibonacci.
+
+5. COMPILACION
+Abrir CMakeLists.txt en Qt Creator, seleccionar Desktop Qt 6.11.2 MinGW 64-bit, configurar Release, compilar con Ctrl+B y ejecutar con Ctrl+R.
+
+6. REQUISITOS
+Qt 6.11.2 para compilar la aplicacion y .NET SDK 10 para ejecutar el C# generado.
+
+7. LIMITACIONES
+Es un compilador didactico. No implementa todo Python, clases, excepciones, importaciones, comprensiones ni analisis de flujo avanzado.
